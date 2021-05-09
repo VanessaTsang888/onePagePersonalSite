@@ -17,7 +17,8 @@ The top and bottom needs to be 0, the left and right needs to be auto (circle sh
 h1 {
     font-size: 58pt;
     color: #11999e;
-    margin: 50 auto 0 auto ;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-family: 'Sacramento', cursive;
 }
 
@@ -27,6 +28,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #11999e;
     padding-bottom: 10px;
+    margin: 0 auto auto auto;
 }
 
 h3 {
@@ -43,10 +45,18 @@ hr {
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
-
-
 }
 
+.raytheon:hover {
+    color: #30e3ca;
+    text-decoration: underline;
+}
+
+.raytheon {
+    color: #11999e;
+    margin: auto;
+
+}
 
 .btn {
         -webkit-border-radius: 8px;
@@ -56,11 +66,8 @@ hr {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 100;
-        padding: 40px;
+        padding: 20px;
         background-color: #11999E;
-        -webkit-box-shadow: 1px 1px 20px 0 #000000;
-        -moz-box-shadow: 1px 1px 20px 0 #000000;
-        box-shadow: 1px 1px 20px 0 #000000;
         text-shadow: 1px 1px 20px #000000;
         text-decoration: none;
         display: inline-block;
