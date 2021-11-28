@@ -3,7 +3,7 @@ My one page personal website application now published using GitHub Pages: https
 
 
 ## About
-For this project I have written some intermediate **HTML5** code at and some intermediate CSS code to develop this website application.
+For this project I have written some intermediate **HTML5** code and some intermediate CSS code to develop this website application.
 
 Next Up:
 
