@@ -1,80 +1,157 @@
 <!-- 
 SECTION 5: STYLISED PERSONAL SITE:
-My Portfolio Website
+The hyperlinks under the Welcome section are using HTML absolute URL as they are using the href attribute and using target attribute uses the _blank value to display the external websites
+in a new window or tab.
 
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="faviconVT.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Sacramento&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="faviconVT.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-        <h1>I'm Vanessa Tsang</h1>
-        <h2 class="chin-name" >曾旭娣小姐</h2>
-        <h2>Frontend Developer for a <span class="cyber">global consultancy</span> on government engagements</h2>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
-        <img src="images/mountain.png" alt="mountain image">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud image" />
+      <h1>I'm Vanessa Tsang</h1>
+      <h2 class="chin-name">曾旭娣小姐</h2>
+      <h2>
+        Frontend Software Engineer/UI Developer within
+        <span class="cyber">Cyber Security</span>
+      </h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud image" />
+      <img src="images/mountain.png" alt="mountain image" />
     </div>
 
     <div class="middle-container">
-        <div class="profile">
-          <img class="proPic" src="images/profilePicVanCircleCrop.png" alt="profile photo of Vanessa Tsang">
-          <h2>Welcome 歡迎</h2>
-          <p class="intro" >I am a highly motivated (Software Engineer) Frontend Developer - React with two years commerical experience gained from working for<a class="raytheon" href="https://www.capgemini.com/gb-en/"> Capgemini UK</a> (current) and <a class="raytheon" href="https://www.raytheon.com/uk/capabilities/raytheon-in-the-uk/cyber">Raytheon UK</a> (June 2019 - May 2021). I enjoy working as part of a multi-disciplinary agile Scrum team to develop reusable and clean React components for accessible and robust user interfaces.</p>
+      <div class="profile">
+        <img
+          class="proPic"
+          src="images/profilePicVanCircleCrop.png"
+          alt="profile photo of Vanessa Tsang"
+        />
+        <h2>Welcome 歡迎</h2>
+        <p class="intro">
+          I am a highly motivated Frontend Engineer/UI Developer with over two
+          years commercial experience in software engineering on various
+          government engagements from working at
+          <a class="company" href="https://www.roke.co.uk/about" target="_blank"
+            >Roke</a
+          >,
+          <a
+            class="company"
+            href="https://www.capgemini.com/gb-en/"
+            target="_blank"
+            >Capgemini UK</a
+          >
+          and
+          <a
+            class="company"
+            href="https://www.raytheon.com/uk/capabilities/raytheon-in-the-uk/cyber"
+            target="_blank"
+            >Raytheon UK</a
+          >
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="skills">
+        <h2>My Skills 我的技能</h2>
+        <div class="skill-row">
+          <img
+            class="se-icon"
+            src="images/img-software-developer-icon.png"
+            alt="software development icon"
+          />
+          <h3>Software Engineering</h3>
+          <p class="code-skill-description">
+            Experience in Software Development, software security and some
+            automation testing for Test Driven Development with digial
+            accessibility.
+          </p>
         </div>
-
-        <hr>
-
-        <div class="skills">
-          <h2>My Skills 我的技能</h2>
-          <div class="skill-row">
-            <img class="se-icon" src="images/img-software-developer-icon.png" alt="software development icon">
-            <h3>Software Engineering</h3>
-            <p class="code-skill-description" >Experience in Software Development, software security, automation testing including TDD with digial accessibility and usability.</p>
-          </div>
-          <br>
-          <div class="skill-row">
-            <img class="icon-js" src="images/icon-javascript.png" alt="JavaScript icon">
-            <h3>Technologies & Languages</h3>
-            <p class="js-skill-description" >HTML5, CSS2/3, JavaScript ES6, React.js, TypeScript for type safety and Next.js. Atlassian Jira Scrum boards, Bitbucket repo management and the Confluence collatoration tools.</p>
-            <!-- 
+        <br />
+        <div class="skill-row">
+          <img
+            class="icon-js"
+            src="images/icon-javascript.png"
+            alt="JavaScript icon"
+          />
+          <h3>Languages, Javascript libraries and frameworks</h3>
+          <p class="js-skill-description">
+            UI Development: React.js, Redux, Next.js, TypeScript for type safety
+            and currently a little Vue.js with Vuex experience.
+            <br />
+            Website Development: HTML5, CSS2/3, Javascript ES6.
+            <br />
+            Tools and Agile Methodology: Git source control via the Bash
+            terminal. Agile Scrum using Atlassian tools such as Jira Scrum
+            boards, Bitbucket repo management and Confluence to safely document
+            my work, store and share with the team.
+          </p>
+          <small>
+            <p>
+              Why not take a look at my
+              <a
+                class="company"
+                href="file:///Users/vanessatsanguk/Documents/code02/responsivePortfolioSite/index.html#"
+                target="_blank"
+                >responsive portfolio website</a
+              >. Please note that I will be developing my brand new responsive
+              portfolio website in the near future using React.js and
+              TypeScript.
+            </p>
+          </small>
+          <!-- 
             <h3>Achievements</h3>
             <p>March 2020: Awarded a prize and a letter from our CEO for achieving the Every Day Hero Award for the creation, setup and running of the Raytheon Women's Study Group (RWSG) project.</p>
             <p>February 2016 - October 2018: worked in partnership with the West Midlands Police as one of their Chinese KINs (Key Individual Network) - ambassador to reduce on the local Chinese community.</p>
             <p>Completed a number of Chinese interpretation assignments for police forces within the UK via CAPIT Translation and Interpreting.</p>
             -->
-          </div>
         </div>
-
-        <br>
-
-        <hr>
-
-        <div class="contact-me">
-          <h2>Get In Touch 請與我聯繫</h2>
-          <h4>If you are exicited about my development work, I would love to hear from you.</h4>
-          <p class="contact-msg" >As part of my continuous learning/development I am upskilling in React.js, TypeScript, Redux, JavaScript ES6, HTL5 and CSS3.</p>
-          <a class="btn" href="mailto:vantaidesign8@gmail.com">Email Me</a>
-          <a class="btn" href="mailto:vantaidesign8@gmail.com">電郵查詢</a>
-        </div>
-      </div> 
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://github.com/VanessaTsang888">GitHub</a>  
-        <a class="footer-link" href="https://www.linkedin.com/in/vanessa-tai-tsang/">LinkedIn</a> 
-        <a class="footer-link" href="https://vanessatsang888.github.io/myCV-Website/">CV Website</a>
-        <p class="copyright" > © 2021 Vanessa Yuk Tai Tsang</p>
       </div>
-      
 
-</body>
+      <hr />
+
+      <div class="contact-me">
+        <h2>Get In Touch 請與我聯繫</h2>
+        <h4>
+          If you are exicited about my development work, I would love to hear
+          from you.
+        </h4>
+        <p class="contact-msg">
+          As part of my continuous learning and development I am upskilling in
+          Vue.js with Vuex, React.js and TypeScript.
+        </p>
+        <a class="btn" href="mailto:vantaidesign8@gmail.com">Email Me</a>
+        <a class="btn" href="mailto:vantaidesign8@gmail.com">電郵查詢</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://github.com/VanessaTsang888"
+        >GitHub</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/vanessa-tai-tsang/"
+        >LinkedIn</a
+      >
+      <a
+        class="footer-link"
+        href="https://vanessatsang888.github.io/myCV-Website/"
+        >CV Website</a
+      >
+      <p class="copyright">© 2022 Vanessa Yuk Tai Tsang</p>
+    </div>
+  </body>
 </html>
